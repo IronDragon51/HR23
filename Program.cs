@@ -6,15 +6,19 @@
         long numberOfCharsChecked = 0;
         char[] characters = s.ToCharArray();
 
-        while (numberOfCharsChecked != n)
+        long simpleChecks = n / s.Length;
+        long remainderCheck = n % s.Length;
+
+        for (int i = 0; i < simpleChecks; i++)
         {
-            for (int i = 0; i < s.Length; i++)
+            numberOfAChars += s.Count(c => c == 'a');
+        }
+
+        for (int j = 0; j < remainderCheck; j++)
+        {
+            if (characters[j] == 'a')
             {
-                if (characters[i] == 'a')
-                {
-                    numberOfAChars++;
-                }
-                numberOfCharsChecked++;
+                numberOfAChars++;
             }
         }
 
