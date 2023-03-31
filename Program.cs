@@ -3,14 +3,19 @@
     public static long repeatedString(string s, long n)
     {
         long numberOfAChars = 0;
-        string infiniteString = s;
         long numberOfCharsChecked = 0;
+        char[] characters = s.ToCharArray();
 
         while (numberOfCharsChecked != n)
         {
-            numberOfAChars += s.Count(c => c == 'a');
-
-            numberOfCharsChecked += s.Length;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (characters[i] == 'a')
+                {
+                    numberOfAChars++;
+                }
+                numberOfCharsChecked++;
+            }
         }
 
         return numberOfAChars;
