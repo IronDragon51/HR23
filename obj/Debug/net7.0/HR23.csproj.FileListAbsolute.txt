@@ -1,0 +1,15 @@
+C:\VS\HackerRank\HR23\bin\Debug\net7.0\HR23.exe
+C:\VS\HackerRank\HR23\bin\Debug\net7.0\HR23.deps.json
+C:\VS\HackerRank\HR23\bin\Debug\net7.0\HR23.runtimeconfig.json
+C:\VS\HackerRank\HR23\bin\Debug\net7.0\HR23.dll
+C:\VS\HackerRank\HR23\bin\Debug\net7.0\HR23.pdb
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.csproj.AssemblyReference.cache
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.AssemblyInfoInputs.cache
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.AssemblyInfo.cs
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.csproj.CoreCompileInputs.cache
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.dll
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\refint\HR23.dll
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.pdb
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\HR23.genruntimeconfig.cache
+C:\VS\HackerRank\HR23\obj\Debug\net7.0\ref\HR23.dll

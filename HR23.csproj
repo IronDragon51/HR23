@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="HR23\" />
+    <Compile Remove="HR23\**" />
+    <EmbeddedResource Remove="HR23\**" />
+    <None Remove="HR23\**" />
   </ItemGroup>
 
 </Project>
