@@ -24,7 +24,6 @@
             numberOfCharsChecked += s.Length;
         }
 
-
         return numberOfAChars;
     }
 
