@@ -3,22 +3,11 @@
     public static long repeatedString(string s, long n)
     {
         long numberOfAChars = 0;
-        //string infiniteString = new string(s, 10000000);
-        //string infiniteString = "";
-
-        //infiniteString = string.Concat(Enumerable.Repeat(s, (int)n));
-
-        //numberOfAChars = s.Count(x => x == a);
-
         string infiniteString = s;
         long numberOfCharsChecked = 0;
 
         while (numberOfCharsChecked != n)
         {
-            //if (infiniteString[i] == 'a')
-            //{
-            //    numberOfAChars++; 
-            //}
             numberOfAChars += s.Count(c => c == 'a');
 
             numberOfCharsChecked += s.Length;
